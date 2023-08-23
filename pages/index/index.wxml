@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<scroll-view class="scrollview" scroll-y type="list">
+  <view class="container">
+    <view class="topbar">
+      <view class="search">
+        <icon class="icon-box-img" type="success" size="93"></icon>
+        <input type="text" placeholder="搜索,共48款好物" />
+    
+      </view>
+      </view>
+  </view>
+</scroll-view>
