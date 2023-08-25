@@ -1,5 +1,25 @@
 /**index.wxss**/
 
-.scrollview {
-  height: 100vh;
+.container {
+  background-color: #fff;
+  min-height: 100%;
+  align-items: stretch;
+  overflow-x: hidden;
+  position: relative;
+}
+.search{
+  height: 100rpx; 
+  background-color: #f9f9f9;
+  padding: 0 24rpx;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+}
+.search .txt{
+  height: 42rpx;
+  line-height: 42rpx;
+  color:#666;
+  padding-left: 10rpx;
+  font-size: 28rpx;
 }
